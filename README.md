@@ -40,7 +40,7 @@ Please run as follows to install all the dependencies:
 pip3 install -r requirements.txt
 ```
 
-## Train for IterDE
+## Usage
 
 ### Preparation
 
@@ -106,3 +106,6 @@ python com_512_256_128_64_32_new.py
 
 3. Finally, the distilled student will be generated in the checkpoint folder.
 
+## Acknowledgement:
+
+We refer to the code of [OpenKE](https://github.com/thunlp/OpenKE). Thanks for their contributions.
