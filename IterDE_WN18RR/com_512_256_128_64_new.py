@@ -39,7 +39,6 @@ student = ComplEx(
 # define the loss function
 model = kd_huber_new(
 	model = student, 
-	# loss = SoftplusLoss(),
 	loss = SoftplusLoss(adv_temperature=1),
 	batch_size = train_dataloader.get_batch_size(), 
 	regul_rate = 1.0,

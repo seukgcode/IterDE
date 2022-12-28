@@ -4,10 +4,10 @@ from .Strategy import Strategy
 import torch.nn.functional as F
 import torch
 
-class kd_dualde(Strategy):
+class kd_structure(Strategy):
 
 	def __init__(self, model = None, t_model = None, loss = None, batch_size = 256, regul_rate = 0.0, l3_regul_rate = 0.0, l = 1, kind = 0):
-		super(kd_dualde, self).__init__()
+		super(kd_structure, self).__init__()
 		self.model = model
 		self.loss = loss
 		self.batch_size = batch_size

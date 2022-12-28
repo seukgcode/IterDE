@@ -47,8 +47,6 @@ model = kd_huber_new(
 	l = 0.01
 )
 
-# h:s 1:10
-
 # train the model
 trainer = Trainer_new(model = model, data_loader = train_dataloader, train_times = 500, alpha = 0.5, use_gpu = True, opt_method = 'Adagrad')
 trainer.run()
