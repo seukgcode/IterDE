@@ -1,6 +1,6 @@
 #  IterDE
 
-The codes and datasets for "IterDE: An Iterative Knowledge Distillation Framework for Knowledge Graph Embeddings".
+The codes and datasets for "[IterDE: An Iterative Knowledge Distillation Framework for Knowledge Graph Embeddings](https://ojs.aaai.org/index.php/AAAI/article/view/25570)". (AAAI2023)
 
 The repo is expended on the basics of [OpenKE](https://github.com/thunlp/OpenKE).
 
@@ -109,3 +109,17 @@ python com_512_256_128_64_32_new.py
 ## Acknowledgement:
 
 We refer to the code of [OpenKE](https://github.com/thunlp/OpenKE). Thanks for their contributions.
+
+## Citation:
+
+If you find the repository helpful, please cite the following paper
+
+```r
+@inproceedings{liu2023iterde,
+  title={IterDE: an iterative knowledge distillation framework for knowledge graph embeddings},
+  author={Liu, Jiajun and Wang, Peng and Shang, Ziyu and Wu, Chenxiao},
+  booktitle={AAAI},
+  year={2023}
+}
+```
+
