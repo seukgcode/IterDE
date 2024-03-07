@@ -4,6 +4,10 @@ The codes and datasets for "[IterDE: An Iterative Knowledge Distillation Framewo
 
 The repo is expended on the basics of [OpenKE](https://github.com/thunlp/OpenKE).
 
+## Framework
+
+![](./framework.jpg)
+
 ## Folder Structure
 
 The structure of the folder is shown below:
